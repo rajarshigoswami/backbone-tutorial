@@ -1,3 +1,3 @@
-# backbone-tutorial
+A better Tutorial for Backbone.js - That covers all the basics
 
-Demo App for the backbone.js tutorial
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+    </head>
+    <body>
+        <script type="text/template" id="todo-template">
+            <div class="view">
+              <input type="checkbox" <%= completed ? 'checked="checked"' : '' %> />
+              <label <%= completed ? 'class="completed"' : '' %> ><%= title %></label>
+              <button class="destroy">X</button>
+            </div>
+        </script>
+        <script type="text/template" id="add-template">
+            <div class="view">
+              <input id="new-todo" type="text" placeholder="What needs to be done?">
+              <button class="add" disabled>+</button>
+            </div>
+        </script>
+        <script src="./js/lib/jquery.js"></script>
+        <script src="./js/lib/underscore.js"></script>
+        <script src="./js/lib/backbone.js"></script>
+        <script src="./js/src/app.js"></script>
+    </body>
+</html>
